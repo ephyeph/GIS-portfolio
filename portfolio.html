@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Ephraim Retta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="portfolio">
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">EphraimRetta</a>
+      <ul class="nav-menu">
+        <li><a class="nav-link" data-page="home" href="index.html">Home</a></li>
+        <li><a class="nav-link" data-page="portfolio" href="portfolio.html">Portfolio</a></li>
+        <li><a class="nav-link" data-page="resume" href="resume.html">Resume</a></li>
+        <li><a class="nav-link" data-page="contact" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="page-intro">
+      <h1>Portfolio</h1>
+      <p>Selected geospatial, cartographic, and analytics projects.</p>
+    </section>
+
+    <section>
+      <div class="grid">
+        <article class="card">
+          <img src="images/digital europe.png" alt="Mapping Digital Europe" />
+          <div class="card-body">
+            <h3 class="card-title">Mapping Digital Europe</h3>
+            <p class="card-desc">Coordinated choropleth and bar chart (D3) exploring internet access and freedom metrics.</p>
+            <a class="card-link" href="https://ephyeph.github.io/575_lab2/">View project</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/ni_cancer.png" alt="Nitrate and Cancer Explorer" />
+          <div class="card-body">
+            <h3 class="card-title">Nitrate &amp; Cancer Explorer WI</h3>
+            <p class="card-desc">Leaflet app with client-side interpolation and regression for exploratory health analysis.</p>
+            <a class="card-link" href="https://ephyeph.github.io/777_p1/">View project</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/re_centrality.png" alt="Migrant Infrastructure Map" />
+          <div class="card-body">
+            <h3 class="card-title">Migrant Infrastructure Map</h3>
+            <p class="card-desc">Prototype mapping migrant-serving amenities using Central Place Theory as an analytical frame.</p>
+            <a class="card-link" href="https://ephyeph.github.io/778_app/">View project</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/indy_weather.png" alt="Indianapolis Weather Trends" />
+          <div class="card-body">
+            <h3 class="card-title">Indianapolis Weather Trends</h3>
+            <p class="card-desc">R + Quarto dashboard analyzing temperature and precipitation patterns in Indianapolis.</p>
+            <a class="card-link" href="https://ephyeph.github.io/">View project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">&copy; <span id="year"></span> Ephraim Retta</footer>
+  <script src="script.js"></script>
+</body>
+</html>

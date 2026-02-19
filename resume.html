@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Ephraim Retta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="resume">
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">EphraimRetta</a>
+      <ul class="nav-menu">
+        <li><a class="nav-link" data-page="home" href="index.html">Home</a></li>
+        <li><a class="nav-link" data-page="portfolio" href="portfolio.html">Portfolio</a></li>
+        <li><a class="nav-link" data-page="resume" href="resume.html">Resume</a></li>
+        <li><a class="nav-link" data-page="contact" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="page-intro">
+      <h1>Resume</h1>
+      <p>Experience spanning GIS development, cloud infrastructure, analytics, and technical operations.</p>
+    </section>
+
+    <section class="resume-grid">
+      <div>
+        <div class="content-block">
+          <h2>Skills</h2>
+          <p>Languages</p>
+          <div class="skills">
+            <span class="skill-pill">English</span>
+            <span class="skill-pill">German</span>
+            <span class="skill-pill">Amharic</span>
+          </div>
+          <p style="margin-top:1rem;">Technical</p>
+          <div class="skills">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">R</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Leaflet</span>
+            <span class="skill-pill">D3</span>
+            <span class="skill-pill">PostGIS</span>
+            <span class="skill-pill">AWS</span>
+            <span class="skill-pill">Git/GitHub</span>
+            <span class="skill-pill">Quarto</span>
+            <span class="skill-pill">Shiny</span>
+          </div>
+        </div>
+
+        <div class="content-block">
+          <h2>Education</h2>
+          <div class="resume-item">
+            <strong>M.Sc. GIS &amp; Cartography</strong>
+            <div class="meta">University of Wisconsin - Madison, 2025</div>
+          </div>
+          <div class="resume-item">
+            <strong>B.A. Geography</strong>
+            <div class="meta">Goethe University Frankfurt, 2022</div>
+          </div>
+          <div class="resume-item">
+            <strong>Studies in Psychology &amp; History</strong>
+            <div class="meta">Indiana University Bloomington, 2014-2016</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="content-block">
+          <h2>Work Experience</h2>
+          <div class="resume-item">
+            <strong>GIS &amp; Database Specialist / Abstractor</strong>
+            <div class="meta">Chasteen Land &amp; Title, 2026-present · Bloomington, IN</div>
+            <ul>
+              <li>Design, creation and management of GIS integration of title database.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <strong>IT / Automation Consultant (Part Time)</strong>
+            <div class="meta">Indiana Painting, 2024-2025 · Indianapolis, IN</div>
+            <ul>
+              <li>Implemented CRM automations and integrations (Zapier, Monday.com) across business workflows.</li>
+              <li>Designed dashboards and data quality checks; authored documentation and SOPs.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <strong>GIS &amp; Data Analyst - Project Work</strong>
+            <div class="meta">UW Madison, 2024-2025 · Madison, WI / Remote</div>
+            <ul>
+              <li>Built Leaflet apps with client-side IDW interpolation and regression for environmental health analysis.</li>
+              <li>Developed D3 coordinated views (map + bar chart) for multivariate European internet metrics.</li>
+              <li>Managed PostGIS on AWS; created ETL pipelines in Python/R for geospatial datasets.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <strong>Cloud &amp; Infrastructure Analyst</strong>
+            <div class="meta">Accenture, 2023-2025 · Frankfurt, Germany</div>
+            <ul>
+              <li>Set up and maintained client test lab infrastructure across two countries to support Azure migration of cash register and POS systems.</li>
+              <li>Impacted over 5,300 stores, 18,500+ cash registers, and 6,000+ mobile devices across 9 countries.</li>
+              <li>Managed parallel testing streams in multiple environments for large-scale rollout readiness.</li>
+              <li>Delivered 2nd-level hyper-care support via ServiceNow and authored technical documentation and SOPs.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <strong>Commercial Analyst Intern</strong>
+            <div class="meta">U.S. Department of Commerce, 2022 · Frankfurt, Germany</div>
+            <ul>
+              <li>Conducted structured market analyses on FinTech and cloud sectors and synthesized findings for strategic recommendations.</li>
+              <li>Led research briefs and stakeholder reporting to support cross-border market entry strategies for U.S. firms.</li>
+              <li>Coordinated logistics and provided on-site support for a networking event hosting a U.S. business delegation.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <strong>Research Data Management Specialist / IT Support Tech</strong>
+            <div class="meta">Goethe University, 2020-2022 · Frankfurt, Germany</div>
+            <ul>
+              <li>Designed training materials and documentation to strengthen research data management practices and data integrity.</li>
+              <li>Delivered Tier 1 and Tier 2 IT support, managed assets, and streamlined ticket resolution workflows.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">&copy; <span id="year"></span> Ephraim Retta</footer>
+  <script src="script.js"></script>
+</body>
+</html>
